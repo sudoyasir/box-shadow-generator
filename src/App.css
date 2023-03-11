@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: linear-gradient(45deg, #24cff3, #4ed38f);
+  font-family: 'Lato', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  height: 70vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container{
+  margin-top: 3rem !important;
+}
+.row{
+  margin-top: 7rem !important;
+}
+.box{
+  height: 300px;
+  background-color: blueviolet;
+}
+h1{
+  font-weight: 900;
+}
+.outputP{
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width:768px) {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .box{
+    margin-top: 4rem !important;
   }
-  to {
-    transform: rotate(360deg);
+  .row{
+    margin-top: 2rem !important;
+    padding-bottom: 5rem !important;
+
   }
+
+  
 }
